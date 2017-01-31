@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite" verbose="1" parallel="tests"
+	thread-count="2">
+	<test name="Cucumber Date Calculator Test 2">
+		<classes>
+			<class name="automation.Runner" />
+		</classes>
+	</test>
+	<test name="Cucumber Date Calculator Test 1">
+		<classes>
+			<class name="automation.Runner2" />
+		</classes>
+	</test>
+</suite>
